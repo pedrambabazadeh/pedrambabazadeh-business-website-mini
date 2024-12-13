@@ -1,7 +1,6 @@
 import React from 'react'
 import './header.css'
 import { Button, Grid, Box } from '@mui/material'
-import { NumericCards } from '../../Components'
 
 export default function Header() {
     let coverPhoto= "/Home%20Wallpaper1.png"
@@ -33,7 +32,6 @@ export default function Header() {
           </Box>
         </Grid>
         <Grid item xs={12}>
-          <NumericCards/>
         </Grid>
       </Grid>
     </header>
