@@ -1,24 +1,36 @@
-import logo from './logo.svg';
 import './App.css';
+import { Navigation,Header, Services, Footer, ContactUs } from './Sections';
+import { ThemeProvider } from '@emotion/react';
+import { createTheme } from '@mui/material';
+
+const theme =createTheme(
+{
+  palette:
+    {
+      primary:
+      {
+        main: '#C52F91',
+      },
+      secondary:
+      {
+        main:'#F58634',
+      }
+    }
+})
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <div>
+        <Navigation/>
+        {/* needs to be dynamic from here*/}
+        <Header/>
+        <Services/>
+        <ContactUs/>
+        {/*until here*/}
+        <Footer/>
+      </div>
+    </ThemeProvider>
   );
 }
 
