@@ -12,6 +12,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #1c222a;
   color: #ffffff;
+  overflow-x: hidden;
+}
+
+section, form
+{
+  background-color: #1c222a;
 }
 
 code {
