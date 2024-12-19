@@ -1,5 +1,5 @@
 import './App.css';
-import { Navigation,Header, Services, Footer, ContactUs, Portfolio } from './Sections';
+import { Navigation,Header, Services, Footer, ContactUs, Portfolio, AboutUs } from './Sections';
 import { ThemeProvider } from '@emotion/react';
 import { createTheme } from '@mui/material';
 
@@ -27,6 +27,7 @@ function App() {
         <Header/>
         <Services/>
         <Portfolio/>
+        <AboutUs/>
         <ContactUs/>
         {/*until here*/}
         <Footer/>
