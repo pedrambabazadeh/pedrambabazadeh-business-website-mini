@@ -28,9 +28,11 @@ function App() {
         <Services/>
         <Portfolio/>
         <AboutUs/>
-        <ContactUs/>
         {/*until here*/}
-        <Footer/>
+        <Footer>
+        <ContactUs/>
+        </Footer>
+
       </div>
     </ThemeProvider>
   );

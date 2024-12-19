@@ -4,6 +4,7 @@ import { Formik, Form, Field, ErrorMessage } from 'formik';
 import { TextField, Button, Grid2 as Grid, TextareaAutosize} from '@mui/material';
 import {default as validationSchema} from './Validation_yup';
 import {default as HandleSubmit} from './HandleSubmit'
+import { BorderAllRounded } from '@mui/icons-material';
 
 const ContactUs = () => {
   return (
@@ -27,7 +28,9 @@ const ContactUs = () => {
                   as={TextField}
                   fullWidth name="firstName"
                   placeholder="First Name"
-                  helperText={<ErrorMessage name="firstName"/>}/>
+                  helperText={<ErrorMessage name="firstName"/>}
+                  className="radius_md"
+                  />
               </Grid>
               <Grid size={{ xs: 12, md: 6}}>
               <Field
@@ -68,7 +71,7 @@ const ContactUs = () => {
          <label>
            <Field
            type="checkbox"
-           name="gdpr" 
+           name="gdpr"
            helperText={<ErrorMessage name="gdpr"/>}/>
            Agree to GDPR terms
          </label>
