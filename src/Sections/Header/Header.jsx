@@ -1,6 +1,6 @@
 import React from 'react'
 import './header.css'
-import { Button, Grid, Box } from '@mui/material'
+import { Button, Grid2 as Grid, Box } from '@mui/material'
 
 export default function Header() {
     let coverPhoto= "/Home%20Wallpaper1.png";
@@ -14,8 +14,8 @@ export default function Header() {
       <img src={`${circularBack}`}/>
     </div>
         <Grid container spacing={2}>
-          <Grid item xs={0} lg={1}></Grid>
-          <Grid item xs={10}>
+          <Grid item size={{xs:0, lg:1}}></Grid>*
+          <Grid item size={{xs:10}}>
             <Box p={2}>
             <div className='header_text'>
             <h2>
@@ -35,7 +35,7 @@ export default function Header() {
             </div>
             </Box>
           </Grid>
-          <Grid item xs={12}>
+          <Grid item size={{xs:12}}>
           </Grid>
         </Grid>
     </header>
