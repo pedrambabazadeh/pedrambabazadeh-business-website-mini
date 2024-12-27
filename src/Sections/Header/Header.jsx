@@ -14,7 +14,7 @@ export default function Header() {
       <img src={`${circularBack}`}/>
     </div>
         <Grid container spacing={2}>
-          <Grid item size={{xs:0, lg:1}}></Grid>*
+          <Grid item size={{xs:0, lg:1}}></Grid>
           <Grid item size={{xs:10}}>
             <Box p={2}>
             <div className='header_text'>
