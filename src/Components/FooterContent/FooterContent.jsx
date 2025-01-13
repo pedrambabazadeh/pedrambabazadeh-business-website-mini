@@ -14,6 +14,24 @@ export default function FooterContent()
                         <img src="/LogoDark.png" style={{width: '300px'}}/>
                     </Box>
                 </Grid>
+                <Grid item size={{xs:6, md: 4}}>
+                    <Box>
+                       <ul>
+                        <li>location</li>
+                        <li>location</li>
+                        <li>location</li>
+                       </ul>
+                    </Box>
+                </Grid>
+                <Grid item size={{xs:6, md: 4}}>
+                    <Box>
+                    <ul className='footer_social-media__ul'>
+                        <li>location</li>
+                        <li>location</li>
+                        <li>location</li>
+                       </ul>
+                    </Box>
+                </Grid>
             </Grid>
         </div>
     )

@@ -1,2 +1,17 @@
-.footer_content__div
-{}
+.footer_content__div ul
+{color: #898989;
+padding:0;
+margin:0;}
+
+.footer_content__div ul>li
+{list-style-type: none;
+margin: 0;}
+
+.footer_social-media__ul
+{
+    display:flex;
+}
+
+.footer_social-media__ul>li{
+    padding: 15px;
+}
