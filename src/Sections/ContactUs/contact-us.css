@@ -1,3 +1,7 @@
+.contact-form_form{
+    padding: 2% 5%;
+}
+
 .contact-form_form input::placeholder
 {
     color: #898989;
@@ -19,4 +23,9 @@ input
     -moz-border-radius: 40PX;
     -ms-border-radius: 40PX;
     -o-border-radius: 40PX;
+}
+
+.contact-form_form button[type = "submit"]
+{
+    margin: 10px 0;
 }

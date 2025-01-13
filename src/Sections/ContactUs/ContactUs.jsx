@@ -1,7 +1,7 @@
 import React from 'react'
 import './contact-us.css'
 import { Formik, Form, Field, ErrorMessage } from 'formik';
-import { TextField, Button, Grid2 as Grid, TextareaAutosize} from '@mui/material';
+import { TextField, Button, Grid2 as Grid, TextareaAutosize, Box} from '@mui/material';
 import {default as validationSchema} from './Validation_yup';
 import {default as HandleSubmit} from './HandleSubmit'
 import { BorderAllRounded } from '@mui/icons-material';
@@ -75,9 +75,11 @@ const ContactUs = () => {
            helperText={<ErrorMessage name="gdpr"/>}/>
            Agree to GDPR terms
          </label>
-         <Button type="submit" disabled={isSubmitting}>
+         <Box>
+         <Button type="submit" disabled={isSubmitting} variant='outlined'>
            Submit
          </Button>
+         </Box>
        </Form>
       )}
     </Formik>
