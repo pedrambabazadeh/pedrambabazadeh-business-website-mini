@@ -1,6 +1,7 @@
 import React from 'react'
 import './footer-content.css'
 import {Grid2 as Grid, Box} from '@mui/material'
+import { LocationCity, Phone, Mail, MyLocation, Instagram, LinkedIn, Facebook, FacebookRounded } from '@mui/icons-material'
 
 export default function FooterContent()
 {
@@ -17,18 +18,32 @@ export default function FooterContent()
                 <Grid item size={{xs:6, md: 4}}>
                     <Box>
                        <ul>
-                        <li>location</li>
-                        <li>location</li>
-                        <li>location</li>
+                        <li>
+                            <LocationCity/>
+                            location
+                        </li>
+                        <li>
+                            <Phone/>
+                            location
+                        </li>
+                        <li>
+                            <Mail/>
+                            location</li>
                        </ul>
                     </Box>
                 </Grid>
                 <Grid item size={{xs:6, md: 4}}>
                     <Box>
                     <ul className='footer_social-media__ul'>
-                        <li>location</li>
-                        <li>location</li>
-                        <li>location</li>
+                        <li>
+                            <Instagram/>
+                        </li>
+                        <li>
+                            <LinkedIn/>
+                        </li>
+                        <li>
+                            <FacebookRounded/>
+                        </li>
                        </ul>
                     </Box>
                 </Grid>
