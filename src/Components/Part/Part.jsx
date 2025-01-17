@@ -1,23 +1,23 @@
 import React from 'react'
 import './part.css'
-import { Button, Grid, Box } from '@mui/material'
+import { Button, Grid2 as Grid, Box } from '@mui/material'
 
-export default function Part(props) {
+export default function Part({id="", color, data="", title, children}) {
   return (
-    <section className='main-section'>
-      <h3 className='section_title'>{props.title}</h3>
+    <section id={id} className='main-section'>
+      <h3 className='section_title'>{title}</h3>
       <div className='separator'
-          style={{backgroundColor: props.color,
-          boxShadow: `3px 0px 5px ${props.color}, -3px -0px 5px ${props.color}`}}>
+          style={{backgroundColor: color,
+          boxShadow: `3px 0px 5px ${color}, -3px -0px 5px ${color}`}}>
           &nbsp;
       </div>
       <Grid container>
-        <Grid item xs={7}>
+        <Grid item size={{'xs': 7}}>
           <Box>
-            <p className='section_description'>{props.data}</p>
+            <p className='section_description'>{data}</p>
           </Box>
         </Grid>
-        {props.children}
+        {children}
       </Grid>
     </section>
   )

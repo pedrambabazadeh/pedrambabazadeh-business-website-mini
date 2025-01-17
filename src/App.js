@@ -30,7 +30,6 @@ function App() {
         <AboutUs/>
         {/*until here*/}
         <Footer>
-          <ContactUs/>
         </Footer>
 
       </div>

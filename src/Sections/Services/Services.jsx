@@ -7,7 +7,7 @@ export default function Services() {
     <Part title="Our services"
       data="new part is working successfullyLorem ipsum odor amet, consectetuer adipiscing elit. Dignissim imperdiet molestie finibus massa; sollicitudin odio fusce. Rutrum volutpat at lorem varius vitae adipiscing posuere sollicitudin"
       color="#C52F91">
-        <div className="messy-list">
+        <div id='services' className="messy-list">
           <ul>
           <li>
               Responsive Web design

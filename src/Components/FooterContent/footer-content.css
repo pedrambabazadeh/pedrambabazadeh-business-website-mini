@@ -15,3 +15,8 @@ margin: 0;}
 .footer_social-media__ul>li{
     padding: 15px;
 }
+
+.footer_logo
+{
+    max-width: 200px;
+}

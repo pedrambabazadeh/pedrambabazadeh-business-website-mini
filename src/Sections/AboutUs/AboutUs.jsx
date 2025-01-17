@@ -5,6 +5,7 @@ import './about-us.css'
 export default function AboutUs() {
   return (
     <Part title="About us"
+    id="about-us"
     data=""
     color="#A3C52F">
         <div className='about-us_content__div'>

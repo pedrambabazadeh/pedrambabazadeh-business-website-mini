@@ -1,7 +1,7 @@
 let data = [
-    {name : 'Home'},
-    {name : 'Services'},
-    {name : 'Client'},
-    {name : 'Contact'},
+    {name : 'Home', id:'#'},
+    {name : 'Services', id: 'services'},
+    {name : 'Client', id:'client'},
+    {name : 'About us', id: 'about-us'}
 ]
 export default data

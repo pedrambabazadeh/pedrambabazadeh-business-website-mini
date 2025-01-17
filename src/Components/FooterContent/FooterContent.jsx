@@ -11,8 +11,8 @@ export default function FooterContent()
         <div className='footer_content__div'>
             <Grid container spacing={2}>
                 <Grid item size={{xs:12, md: 4}}>
-                    <Box>
-                        <img src="/LogoDark.png" style={{width: '300px'}}/>
+                    <Box p={2}>
+                        <img className="footer_logo" src="/LogoDark.png" style={{width: '300px'}}/>
                     </Box>
                 </Grid>
                 <Grid item size={{xs:6, md: 4}}>
