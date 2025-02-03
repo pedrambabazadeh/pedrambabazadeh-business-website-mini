@@ -4,10 +4,10 @@ import './about-us.css'
 
 export default function AboutUs() {
   return (
-    <Part title="About us"
-    id="about-us"
-    data=""
-    color="#A3C52F">
+    <Part title='About us'
+    id='about-us'
+    data=''
+    color='#A3C52F'>
         <div className='about-us_content__div'>
             <p className='about-us_content__text'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec nisl vel nunc porttitor accumsan ut eu lacus. Curabitur quis viverra tortor. In hac habitasse platea dictumst. Nunc ullamcorper diam a sem pulvinar viverra. Donec maximus lacus id lacinia venenatis. Morbi molestie urna sed turpis hendrerit posuere. In ullamcorper est quis suscipit iaculis. Nulla facilisi. Donec sit amet luctus dui. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec a vestibulum ante, ac feugiat leo. Vestibulum vitae lacus viverra, commodo arcu eu, tincidunt lectus. Morbi faucibus vehicula felis a tempus. Proin iaculis, dui mattis bibendum ultrices, dolor libero euismod tortor, sed mattis massa massa ac nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;

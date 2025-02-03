@@ -14,7 +14,10 @@ export default function NavBarStructure(props) {
     <ul className='nav-bar_ul'>
         {props.items.map((item, index) => {
             return(
-            <li key={index} onClick={()=>scrollToSec(item.id)}>
+            <li
+              onMouseOver={(e)=>e.target.style.textShadow = `0px 0px 10px ${item.color}`}
+              onMouseLeave={(e)=>e.target.style.textShadow = 'unset'}
+              key={index} onClick={()=>scrollToSec(item.id)}>
                 {item.name}
             </li>
             )
