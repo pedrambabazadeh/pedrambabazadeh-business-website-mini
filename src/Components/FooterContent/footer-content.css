@@ -1,11 +1,24 @@
 .footer_content__div ul
 {color: #898989;
 padding:0;
-margin:0;}
+margin:0;
+padding-top: 20px;}
 
 .footer_content__div ul>li
 {list-style-type: none;
 margin: 0;}
+
+.footer_content__div a
+{
+    color: unset;
+    text-decoration: unset;
+}
+
+.footer_content__div a:visited
+{
+    color: unset;
+}
+
 
 .footer_social-media__ul
 {

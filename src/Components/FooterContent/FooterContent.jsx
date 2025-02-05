@@ -20,15 +20,11 @@ export default function FooterContent()
                        <ul>
                         <li>
                             <LocationCity/>
-                            location
-                        </li>
-                        <li>
-                            <Phone/>
-                            location
+                            Budapest, HU
                         </li>
                         <li>
                             <Mail/>
-                            location</li>
+                            info@webinsighter.com</li>
                        </ul>
                     </Box>
                 </Grid>
@@ -36,13 +32,19 @@ export default function FooterContent()
                     <Box>
                     <ul className='footer_social-media__ul'>
                         <li>
-                            <Instagram/>
+                            <a href='http://instagram.com'>
+                                <Instagram/>
+                            </a>
                         </li>
                         <li>
-                            <LinkedIn/>
+                            <a href='https://linkedin.com'>
+                                <LinkedIn/>
+                            </a>
                         </li>
                         <li>
-                            <FacebookRounded/>
+                            <a href='http=facebook.com'>
+                                <FacebookRounded/>
+                            </a>
                         </li>
                        </ul>
                     </Box>
