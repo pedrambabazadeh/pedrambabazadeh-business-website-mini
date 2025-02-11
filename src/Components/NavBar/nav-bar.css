@@ -1,12 +1,25 @@
-.nav-bar_ul{
+nav
+{
+    position: sticky;
+    top: 0;
+}
+
+.nav-bar_ul
+{
     list-style-type: none;
     margin: 0;
     padding: 0px;
 }
 
-.nav-bar_ul li{
+.nav-bar_ul li
+{
     display: inline-block;
     padding: 0px 10px;
     color: #BCBCBC; /*change*/
     cursor: pointer;
+}
+
+.mobile_menu .nav-bar_ul li
+{
+    display:block
 }

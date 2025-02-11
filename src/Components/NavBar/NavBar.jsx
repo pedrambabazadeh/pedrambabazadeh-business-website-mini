@@ -9,11 +9,13 @@ export default function NavBar() {
   return (
     <>
     <Grid container display={{xs : 'none', md:'block'}} size={{xs : 12}}>
-    <NavBarStructure items={data}/>
+      <NavBarStructure items={data}/>
     </Grid>
-    <Grid container display={{ md:'none'}} size={{xs : 12}}>
-    <Menu/>
+      <Menu/>
+    <Grid container /*display={{ md:'none'}}*/ size={{xs : 8}}>
+      <MobileMenu data={data}/>
     </Grid>
+
     </>
   )
 }

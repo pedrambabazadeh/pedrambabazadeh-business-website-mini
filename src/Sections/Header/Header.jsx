@@ -1,18 +1,16 @@
 import React from 'react'
 import './header.css'
+import { Navigation } from '..';
 import { Button, Grid2 as Grid, Box } from '@mui/material'
 
 export default function Header() {
     let coverPhoto= "/Home%20Wallpaper1.png";
-    let circularBack =  "/map1.png";
     let text = {header: 'web development services',
                 body: 'we design and build mindustry-leading web-based products to improve your business'
     }
   return (
     <header style={{backgroundImage: `url(${coverPhoto})`}}>
-    <div className="header_circular-back">
-      <img src={`${circularBack}`}/>
-    </div>
+    <Navigation/>
         <Grid container spacing={2}>
           <Grid item size={{xs:0, lg:1}}></Grid>
           <Grid item size={{xs:10}}>
