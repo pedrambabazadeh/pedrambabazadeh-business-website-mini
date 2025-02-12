@@ -23,3 +23,8 @@ nav
 {
     display:block
 }
+
+.mobile_menu__inner
+{
+    text-align: right;
+}

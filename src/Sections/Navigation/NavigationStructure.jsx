@@ -11,8 +11,8 @@ export default function NavigationStructure(props) {
             <div>{props.left}</div>
           </Box>
         </Grid>
-        <Grid item size={{xs : 6}}>
-          <Box p={2}>{props.center}</Box>
+        <Grid item size={{xs : 6}} justifyItems={{xs:'end', md:'start'}}>
+          {props.center}
         </Grid>
       </Grid>
     </nav>
