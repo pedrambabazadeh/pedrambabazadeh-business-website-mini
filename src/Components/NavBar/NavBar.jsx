@@ -9,7 +9,7 @@ export default function NavBar() {
   const [isMenuOpen, setMenuOpen] = useState(false);
   return (
     <>
-    <Grid container display={{xs : 'none', md:'block'}} size={{xs : 12}}>
+    <Grid container display={{xs : 'none', md:'block'}} padding = {{xs: '16px'}} size={{xs : 12}}>
       <NavBarStructure items={data}/>
     </Grid>
     <Box display={{md: 'none'}} onClick={() => setMenuOpen(!isMenuOpen)}>
