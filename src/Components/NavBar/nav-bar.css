@@ -15,13 +15,24 @@ nav
 {
     display: inline-block;
     padding: 0px 10px;
-    color: #BCBCBC; /*change*/
+    color: var(--main-extra-light_1);
     cursor: pointer;
+}
+
+.mobile_menu
+{
+    background-color: var(--main-extra-light_1);
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100vh;
+
 }
 
 .mobile_menu .nav-bar_ul li
 {
-    display:block
+    display:block;
+    color: var(--main-dark_1);
 }
 
 .mobile_menu__inner

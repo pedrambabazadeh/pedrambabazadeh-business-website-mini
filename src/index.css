@@ -1,6 +1,9 @@
 :root
 {
   --light-grey: #E6E7E8;
+  --main-light_1: #E6E7E8;
+  --main-extra-light_1: #ffffff;
+  --main-dark_1: #1c222a;
   --main-color_1: #C52F91;
   --main-color_2: #F58634;
 }
