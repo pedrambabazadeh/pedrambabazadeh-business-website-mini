@@ -28,7 +28,7 @@ export default function FooterContent()
                        </ul>
                     </Box>
                 </Grid>
-                <Grid item size={{xs:12, md: 4}}>
+                <Grid item size={{xs:12, md: 4}} justifyItems={{xs:'center'}}>
                     <Box>
                     <ul className='footer_social-media__ul'>
                         <li>
