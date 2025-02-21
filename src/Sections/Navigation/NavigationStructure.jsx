@@ -1,6 +1,5 @@
 import React from 'react';
 import { Grid2 as Grid, Box } from '@mui/material';
-import { Search, Menu } from '@mui/icons-material';
 
 export default function NavigationStructure(props) {
   return (
@@ -11,7 +10,7 @@ export default function NavigationStructure(props) {
             <div>{props.left}</div>
           </Box>
         </Grid>
-        <Grid item size={{xs : 6}} justifyItems={{xs:'end', md:'start'}}>
+        <Grid item size={{xs : 6 , lg: 4}} justifyItems={{xs:'end'}}>
           {props.center}
         </Grid>
       </Grid>
