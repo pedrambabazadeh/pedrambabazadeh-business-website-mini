@@ -2,9 +2,9 @@ import React from 'react'
 import './part.css'
 import { Button, Grid2 as Grid, Box } from '@mui/material'
 
-export default function Part({id="", color, data="", title, children}) {
+export default function Part({id="", color, data="", className="", title, children}) {
   return (
-    <section id={id} className='main-section'>
+    <section id={id} className={`main-section ${className}`}>
       <h3 className='section_title'>{title}</h3>
       <div className='separator'
           style={{backgroundColor: color,
