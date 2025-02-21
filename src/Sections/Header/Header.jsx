@@ -2,6 +2,7 @@ import React from 'react'
 import './header.css'
 import { Navigation } from '..';
 import { Button, Grid2 as Grid, Box } from '@mui/material'
+import mailtoFunction from './mailtoFunction';
 
 export default function Header() {
     let coverPhoto= "/Home%20Wallpaper1.png";
@@ -23,6 +24,7 @@ export default function Header() {
               {text.body}
             </p>
             <Button
+            onClick={mailtoFunction}
               style={{ borderRadius: '24px', padding: '12px 20px'}}
               className='header_button__back'
               variant='outlined'
