@@ -10,9 +10,9 @@ export default function FooterContent()
     return(
         <div className='footer_content__div'>
             <Grid container spacing={2}>
-                <Grid item size={{xs:12, md: 4}}>
+                <Grid item size={{xs:6, md: 4}}>
                     <Box p={2}>
-                        <img className="footer_logo" src="/LogoDark.png" style={{width: '300px'}}/>
+                        <img className="footer_logo" src="/LogoDark.png" style={{width: '150px'}}/>
                     </Box>
                 </Grid>
                 <Grid item size={{xs:6, md: 4}}>
@@ -28,7 +28,7 @@ export default function FooterContent()
                        </ul>
                     </Box>
                 </Grid>
-                <Grid item size={{xs:6, md: 4}}>
+                <Grid item size={{xs:12, md: 4}}>
                     <Box>
                     <ul className='footer_social-media__ul'>
                         <li>

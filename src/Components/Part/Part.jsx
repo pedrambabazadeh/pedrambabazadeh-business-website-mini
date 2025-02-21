@@ -12,7 +12,7 @@ export default function Part({id="", color, data="", title, children}) {
           &nbsp;
       </div>
       <Grid container>
-        <Grid item size={{'xs': 7}}>
+        <Grid item size={{'xs': 11, 'md': 7}}>
           <Box>
             <p className='section_description'>{data}</p>
           </Box>
