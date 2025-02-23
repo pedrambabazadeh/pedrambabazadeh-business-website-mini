@@ -18,9 +18,9 @@ export default function Part({id="", color, data="", className="", title, childr
           {backimage.show  &&
       <img src='./backTriangle_2.png'
         style={{
-          width:'200px',
+          width:'calc(20%/var(--dinamic))',
           position:'absolute',
-          top:` ${backimage.top + 15 }%`,
+          top:` ${backimage.top + 45 }%`,
           left:` ${backimage.left + 20}%`}}/>
         }
 

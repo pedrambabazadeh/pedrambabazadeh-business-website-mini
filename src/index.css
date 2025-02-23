@@ -6,6 +6,14 @@
   --main-dark_1: #1c222a;
   --main-color_1: #C52F91;
   --main-color_2: #F58634;
+  --dinamic: 1;
+}
+@media screen and (max-width: 500px)
+{
+  :root
+  {
+    --dinamic: .5;
+  }
 }
 
 body {
