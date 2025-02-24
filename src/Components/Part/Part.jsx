@@ -2,26 +2,26 @@ import React from 'react'
 import './part.css'
 import { Button, Grid2 as Grid, Box } from '@mui/material'
 
-export default function Part({id="", color, data="", className="", title, children, backimage={show:false, top: 0, left: 0 }})
+export default function Part({id="", color, data="", className="", title, children, backimage={show:false, top: [0,0], left: [0,0] }})
  {
   return (
-    <div style={{position:'relative'}}>
+    <div className='part'>
 
       {backimage.show &&
       <img src='./backTriangle_1.png'
         style={{
-          width:'200px',
+          width:'calc(20% * var(--dinamic))',
           position:'absolute',
-          top:` ${backimage.top}%`,
-          left:` ${backimage.left}%`}}/>
+          top:` ${backimage.top[0]}%`,
+          left:` ${backimage.left[0]}%`}}/>
         }
           {backimage.show  &&
       <img src='./backTriangle_2.png'
         style={{
-          width:'calc(20%/var(--dinamic))',
+          width:'calc(20% * var(--dinamic))',
           position:'absolute',
-          top:` ${backimage.top + 45 }%`,
-          left:` ${backimage.left + 20}%`}}/>
+          top:` ${backimage.top[1]}%`,
+          left:` ${backimage.left[1]}%`}}/>
         }
 
       <section id={id} className={`main-section ${className}`} style={{backdropFilter: 'blur(20px)'}}>

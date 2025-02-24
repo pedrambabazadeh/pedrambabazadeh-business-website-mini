@@ -7,7 +7,9 @@ export default function AboutUs() {
     <Part title='About us'
     id='about-us'
     data=''
-    color='#A3C52F'>
+    color='#A3C52F'
+    backimage={{show:true, top:[25,27], left:[45,60]}}
+    >
         <div className='about-us_content__div'>
             <p className='about-us_content__text'>
             At WebInsighter, we believe every business has a unique story, and our mission is to bring that story to life in the 

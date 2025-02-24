@@ -8,7 +8,7 @@ export default function Services() {
      className="services"
       data="new part is working successfullyLorem ipsum odor amet, consectetuer adipiscing elit. Dignissim imperdiet molestie finibus massa; sollicitudin odio fusce. Rutrum volutpat at lorem varius vitae adipiscing posuere sollicitudin"
       color="#C52F91"
-      backimage={{show: true, top:15, left:25}}>
+      backimage={{show: true, top:[15,16], left:[25,55]}}>
         <div id='services' className="messy-list">
           <ul>
           <li>
