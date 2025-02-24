@@ -15,9 +15,9 @@ export default function NavBar() {
     <Box className='menu-icons' display={{md: 'none'}} onClick={() => setMenuOpen(!isMenuOpen)}>
       {!isMenuOpen ? <Menu /> : <Close/>}
     </Box>
-    {isMenuOpen && <Grid container display={{ md:'none'}} size={{xs : 8}} justifyContent={{xs:'end'}}>
-      <MobileMenu data={data}/>
-    </Grid>}
+    <Grid container display={{ md:'none'}} size={{xs : 8}} justifyContent={{xs:'end'}}>
+      <MobileMenu data={data} show={isMenuOpen}/>
+    </Grid>
 
     </>
   )

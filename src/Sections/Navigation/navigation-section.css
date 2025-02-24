@@ -1,8 +1,16 @@
-.left-nav>div
+nav div.top-logo
 {
     padding-left: 90px;
+    padding-top: 16px;
 }
 
-.left-nav div img{
+.top-logo img{
     max-width: 90px;
+}
+
+@media screen and (max-width: 500px) {
+    nav div.top-logo
+    {
+        padding-left: 10px;
+    }
 }
