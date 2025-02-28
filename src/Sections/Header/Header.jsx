@@ -6,15 +6,15 @@ import mailtoFunction from './mailtoFunction';
 
 export default function Header() {
     let coverPhoto= "/Home%20Wallpaper1.png";
-    let text = {header: 'web development services',
-                body: 'we design and build mindustry-leading web-based products to improve your business'
+    let text = {header: 'Build. Grow. Scale. Your Digital Success Starts Here.',
+                body: 'Websites that convert. SEO that ranks. Marketing that drives results.'
     }
   return (
     <header style={{backgroundImage: `url(${coverPhoto})`}}>
     <Navigation/>
-        <Grid container spacing={2}>
+        <Grid container spacing={2} justifyContent='center' alignItems='center' height='100%'>
           <Grid item size={{xs:0, lg:1}}></Grid>
-          <Grid item size={{xs:10}}>
+          <Grid item size={{xs:10}} alignContent='center' alignItems='center' alignSelf='end'>
             <Box p={2}>
             <div className='header_text'>
             <h2>
@@ -30,7 +30,7 @@ export default function Header() {
               variant='outlined'
               color='secondary'
             >
-              Let's work together
+              Let’s grow your business today!
               </Button>
             </div>
             </Box>
