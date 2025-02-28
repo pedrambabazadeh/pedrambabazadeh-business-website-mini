@@ -17,14 +17,19 @@ export default function FooterContent()
                 </Grid>
                 <Grid item size={{xs:6, md: 4}}>
                     <Box>
-                       <ul>
+                       <ul className='footer_contacts__ul'>
                         <li>
                             <LocationCity/>
+                            <span>
                             Budapest, HU
+                            </span>
                         </li>
                         <li>
                             <Mail/>
-                            info@webinsighter.com</li>
+                            <span>
+                            info@webinsighter.com
+                            </span>
+                            </li>
                        </ul>
                     </Box>
                 </Grid>

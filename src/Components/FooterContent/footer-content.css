@@ -33,3 +33,9 @@ margin: 0;}
 {
     max-width: 200px;
 }
+
+.footer_contacts__ul>li
+{
+    display: flex;
+    align-content: center;
+}
