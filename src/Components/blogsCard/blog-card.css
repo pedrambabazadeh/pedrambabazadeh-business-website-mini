@@ -1,0 +1,9 @@
+.blog-card_description
+{
+    display: none;
+}
+
+.blog-card:hover .blog-card_description
+{
+    display: block;
+}
